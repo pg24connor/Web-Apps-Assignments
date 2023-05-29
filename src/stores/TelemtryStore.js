@@ -3,37 +3,25 @@ export default class Telemtry
 {
     constructor()
     {
-        
-    }
-
-    static get EVENTS()
-    {
-        return 
+        this.data =
         {
-            DEATH = 0,
-            WIN = 1,
-            TRAPSETUP = 2
-        }
-    }
-
-    static get PlAYER_ACTIONS()
-    {
-        return 
-        {
-            CROUCH = 0,
-            PRONE = 1,
-            STANDING_STILL = 2
-        }
-    }
-
-    static get ENEMY_ACTIONS()
-    {
-        return
-        {
-            PATROLLING = 0,
-            STANDING = 1,
-            CHASING = 2,
-            ROOM_CHANGE = 3
+            playerData:
+            {
+                crouchedTime: 0.0,
+                proneTime: 52.03,
+                timeSpentStationary: 0.26,
+                totoalPlayTime: 316.36
+            },
+            enemyData:
+            {
+                patrolTime: 298.22,
+                chaseTime: 0.0,
+                endTime: 18.58,
+                waitingTime: 0.0,
+                timeInLab: 13.10,
+                timeInCafeteria: 46.73,
+                timeInWarehouse: 256.53
+            }
         }
     }
 

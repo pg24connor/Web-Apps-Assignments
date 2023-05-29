@@ -23,6 +23,10 @@ const router = createRouter({
             path:"/gametel",
             name:"Game Telemtry",
             component: () => import('@/routes/GameTel.vue')
+        },{
+            path:"/admin",
+            name:"Admin",
+            component: () => import('@/routes/Admin.vue')
         }
     ]
 });

@@ -15,7 +15,8 @@ export default class Config
             },
             enemyData:
             {
-                fieldOfView: 60,
+                horizontalFieldOfView: 60,
+                verticalFieldOfView: 25,
                 gracePeriod: 1,
                 waitTime: 5,
                 alertDistance: 3,

@@ -3,7 +3,7 @@ VFS VUE Single File Component
 Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 -->
 <script setup>
-    import Telly from '../stores/TelemtryStore.js';
+    import Telly from '../stores/TelemtryStore.js'
 
     let tellyInfo = new Telly();
 
@@ -17,13 +17,14 @@ Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 <template>
 
     <section class="flexbox columns about">
-        <h1 class="flexitem center title">Game Telemtry Data</h1>
+        <h1 class="flexitem center title">Game Config</h1>
         <div class="split">
             <div class="half home">
                     <h1>Player</h1>
                     <ul class="inner-half">
                         <li v-for="i in playerDataNames.length">
-                            <label>{{ playerDataNames[i - 1] + " : " + playerData[i - 1] }}</label>
+                            <label>{{ playerDataNames[i - 1] }}</label>
+                            <input v-model="playerData[i - 1]"/>
                         </li>
                     </ul>
                 </div>
@@ -31,7 +32,8 @@ Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
                     <h1>Enemy</h1>
                     <ul class="inner-half">
                         <li v-for="i in enemyDataNames.length">
-                            <label>{{ enemyDataNames[i - 1] + " : " + enemyData[i - 1] }}</label>
+                            <label>{{ enemyDataNames[i - 1] }}</label>
+                            <input name="speed" v-model="enemyData[i - 1]"/>
                         </li>
                     </ul>
                 </div>

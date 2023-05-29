@@ -18,9 +18,9 @@ Copyright (c) 2023. Kibble Game Studios Inc. All Rights Reserved.
 
             this.vm = {
                 topStat: {
-                    mostChangedConfig:"Player Speed",
-                    mostDramaticTel:"Prone Deaths",
-                    leastDramaticTel:"Crouch Deaths"
+                    winCount:"8008",
+                    deathCount:"4020",
+                    quitCount:"6219"
                 },
                 welcomeMessage:"Hey Gang, access telemtry and config stuff"
             }
@@ -37,14 +37,14 @@ Copyright (c) 2023. Kibble Game Studios Inc. All Rights Reserved.
         <h3>{{ welcomeMessage }}</h3>
         <div class="flexitem dialog">
             <form class="sample-form">
-                <label for="s1">Most Edited Config Value:
-                    {{ topStat.mostChangedConfig }}
+                <label for="s1">How many people won our game?:
+                    {{ topStat.winCount }}
                 </label><br/>
-                <label for="s2">Telemtry Data With The Most Activity:
-                    {{ topStat.mostDramaticTel }}
+                <label for="s2">How many people died in our game?:
+                    {{ topStat.deathCount }}
                 </label><br/>
-                <label for="s3">Telemtry Data With The Least Activity: 
-                    {{ topStat.leastDramaticTel }}
+                <label for="s3">How many people quit without winning our game?: 
+                    {{ topStat.quitCount }}
                 </label><br/>
             </form>
         </div>

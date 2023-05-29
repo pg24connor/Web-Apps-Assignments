@@ -13,7 +13,8 @@
     const navMenu = [
         { path:"/", section: "Home" },
         { path:"/gameconfig", section: "Game Config"},
-        { path:"/gametel", section: "Game Telemtry"}
+        { path:"/gametel", section: "Game Telemtry"},
+        { path:"/admin", section: "Admin"}
                 ];
 
 </script>
