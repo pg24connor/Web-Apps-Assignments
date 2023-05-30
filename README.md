@@ -1,35 +1,27 @@
-# vfs-vue-template
+###**PG24 T3 Web Apps - Ax: The Framework**
+Submitted by: pg24connor Connor Jame deBoer
+Date: 5/29/23
+----------
 
-This template should help get you started developing with Vue 3 in Vite.
+[demo](https://github.com/pg24connor/Web-Apps-Assignments.git) | [tutorial](link)
 
-## Recommended IDE Setup
+####**Download/Install**
+---------
+press "<> Code"
+press "Download ZIP"
+extract
+open with code
+open a new terminal
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+run the following commands
 
-## Customize configuration
+"npm i"
+"npm run dev"
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+Ctrl click the link
+####**How to use**
+--------
+home is covered in placeholer ideas
+game config contains basic tuning varible, all data is placeholder
+game telemetry shows a bunch of placeholder data
+admin allows you to edit telemetry data
