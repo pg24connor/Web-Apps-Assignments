@@ -17,7 +17,7 @@ Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 <template>
 
     <section class="flexbox columns about">
-        <h1 class="flexitem center title">Game Config</h1>
+        <h1 class="flexitem center title">Admin</h1>
         <div class="split">
             <div class="half home">
                     <h1>Player</h1>
