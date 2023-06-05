@@ -3,7 +3,7 @@ VFS VUE Single File Component
 Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 -->
 <script setup>
-    import Telly from '../stores/TelemtryStore.js';
+    import Telly from '../stores/GameDataStore.js';
 
     let tellyInfo = new Telly();
 

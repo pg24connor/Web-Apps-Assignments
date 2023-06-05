@@ -3,6 +3,12 @@ export default class Config
 {
     constructor()
     {
+        // all the configurable data is stored in this data scruct
+        // I find this solotion to be more readable because all the 
+        // data is part of data, inside of data we have player data 
+        // and enemy data, which are both structs and just make sense 
+        // to me, these structs contain all the information for each 
+        // thing (thing meaning player or enemy)
         this.data =
         {
             playerData:
@@ -26,11 +32,13 @@ export default class Config
         }
     }
 
+    // this guy gets all the property values from a struct
     Values(type)
     {
         return Object.values(type);
     }
 
+    // this guy gets all the property names from a struct
     Names(type)
     {
         let names = [];

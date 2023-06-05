@@ -3,7 +3,7 @@ VFS VUE Single File Component
 Copyright (c) 2018. Scott Henshaw, Kibble Online Inc. All Rights Reserved.
 -->
 <script setup>
-    import Config from '../stores/ConfigStore.js'
+    import Config from '../stores/GameDataStore.js'
 
     let configInfo = new Config();
 

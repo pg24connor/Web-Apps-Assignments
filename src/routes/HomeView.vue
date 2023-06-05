@@ -5,8 +5,7 @@ Copyright (c) 2023. Kibble Game Studios Inc. All Rights Reserved.
 <script>
 
     import Controller from '@/plugins/controller'
-    import Config from '@/stores/ConfigStore'
-    import Telly from '@/stores/TelemtryStore'
+    import Config from '@/stores/GameDataStore.js'
 
     class HomeController extends Controller {
 
@@ -14,7 +13,6 @@ Copyright (c) 2023. Kibble Game Studios Inc. All Rights Reserved.
             super( name, subComponentList );
 
             this.configInfo = new Config();
-            this.telInfo = new Telly();
 
             this.vm = {
                 topStat: {
